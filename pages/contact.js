@@ -2,7 +2,7 @@ import ContactForm from "../components/Contact/ContactForm";
 
 function contact() {
     return (
-        <div className="">
+        <div className="bg-gray-50git">
              
             <ContactForm/>
             
