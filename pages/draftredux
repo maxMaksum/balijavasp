@@ -1,0 +1,30 @@
+import {selectUserName, selectUserEmail, selectUser, loginA, logout} from "../redux/userSlice"
+
+import cookie from 'js-cookie'
+import nookies from 'nookies'
+
+const dispatch = useDispatch()
+
+const dispatch = useDispatch()
+
+
+
+ // dispatch(loginA({
+        //     userName : result.user.displayName,
+        //     userEmail : result.user.email,
+        //     user:result.user
+        //   }))
+        
+        // const token = result.user.getIdToken()
+        // nookies.set(undefined, "token", token, {})
+
+
+        //  cookie.set("token", "ABCD", {expires:1/2 })
+
+
+import { useSelector, useDispatch } from 'react-redux'
+
+import {selectUserEmail} from "../redux/userSlice"
+import { useSelector, useDispatch } from 'react-redux'
+
+.where("email", '===', recepientEmail)
